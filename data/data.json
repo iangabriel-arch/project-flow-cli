@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Alex",
+        "projects": [
+            {
+                "title": "CLI Tool",
+                "user": "Alex",
+                "tasks": [
+                    {
+                        "title": "Implement add-task",
+                        "completed": true
+                    }
+                ]
+            }
+        ]
+    }
+]
