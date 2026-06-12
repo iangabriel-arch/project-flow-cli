@@ -1,14 +1,27 @@
 [
     {
+        "id": 1,
         "name": "Alex",
+        "email": "alex@example.com",
         "projects": [
             {
+                "id": 1,
                 "title": "CLI Tool",
-                "user": "Alex",
+                "description": "A terminal-based project management tool",
+                "due_date": "2026-12-31",
+                "owner": "Alex",
                 "tasks": [
                     {
+                        "id": 1,
                         "title": "Implement add-task",
-                        "completed": true
+                        "status": "done",
+                        "assigned_to": "Alex"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Write README",
+                        "status": "in-progress",
+                        "assigned_to": "Alex"
                     }
                 ]
             }
